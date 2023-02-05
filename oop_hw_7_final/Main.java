@@ -6,12 +6,12 @@ public class Main {
 
         VendingMachine vendingMachine = new VendingMachine(111);
 
-        vendingMachine.makeDrink("чай", 250, 50, 60);
+        vendingMachine.makeDrink("tea", 250, 50, 60);
         Drink teaDrink = vendingMachine.getDrink();
 
         System.out.println(teaDrink);
         
-        vendingMachine.makeDrink("вода", 300, 100);
+        vendingMachine.makeDrink("water", 300, 100);
         Drink waterDrink = vendingMachine.getDrink();
 
         System.out.println(waterDrink);
