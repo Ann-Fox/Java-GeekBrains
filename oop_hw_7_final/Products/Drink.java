@@ -16,13 +16,13 @@ public class Drink {
         return name;
     }
 
-    // public Integer getVolume() {
-    //     return volume;
-    // }
+    public Integer getVolume() {
+        return volume;
+    }
 
-    // public Integer getPrice() {
-    //     return price;
-    // }
+    public Integer getPrice() {
+        return price;
+    }
 
     @Override
     public String toString() {
